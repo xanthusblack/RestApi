@@ -1,0 +1,32 @@
+[09-Nov-2017 23:48:58 UTC] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home/syncadmin/public_html/raj/restapi/Endpoint/Model/Repository/AbstractRepository.php on line 260
+[09-Nov-2017 23:48:58 UTC]  PHP Error:  Failed to connect to Database\n#0 /home/syncadmin/public_html/raj/restapi/Endpoint/Model/Repository/AbstractRepository.php(44): Endpoint\Model\Repository\AbstractRepository->initializeConnection()
+#1 /home/syncadmin/public_html/raj/restapi/Endpoint/Model/Repository/Client.php(25): Endpoint\Model\Repository\AbstractRepository->__construct()
+#2 /home/syncadmin/public_html/raj/restapi/Endpoint/Model/Service/Client.php(28): Endpoint\Model\Repository\Client->__construct()
+#3 /home/syncadmin/public_html/raj/restapi/Endpoint/Client.php(36): Endpoint\Model\Service\Client->__construct()
+#4 /home/syncadmin/public_html/raj/restapi/API/Kernel.php(53): Endpoint\Client->__construct()
+#5 /home/syncadmin/public_html/raj/restapi/web.php(31): API\Kernel->handleRequest(Object(Http\Request))
+#6 {main}
+[09-Nov-2017 23:51:41 UTC] test
+[09-Nov-2017 23:51:41 UTC] test
+[09-Nov-2017 23:51:41 UTC] 
+[09-Nov-2017 23:51:41 UTC] 
+[09-Nov-2017 23:52:56 UTC] test
+[09-Nov-2017 23:52:56 UTC] test
+[09-Nov-2017 23:52:56 UTC] 
+[09-Nov-2017 23:52:56 UTC] 
+[09-Nov-2017 23:52:56 UTC] 
+[09-Nov-2017 23:58:26 UTC] test
+[09-Nov-2017 23:58:26 UTC] test
+[09-Nov-2017 23:58:26 UTC] 
+[09-Nov-2017 23:58:26 UTC] 
+[09-Nov-2017 23:58:26 UTC] 
+[10-Nov-2017 00:02:51 UTC] test
+[10-Nov-2017 00:02:51 UTC] test
+[10-Nov-2017 00:02:51 UTC] 
+[10-Nov-2017 00:02:51 UTC] 
+[10-Nov-2017 00:02:51 UTC] 
+[10-Nov-2017 00:08:10 UTC] test
+[10-Nov-2017 00:08:10 UTC] test
+[10-Nov-2017 00:08:10 UTC] test
+[10-Nov-2017 00:08:10 UTC] test
+[10-Nov-2017 00:08:10 UTC] 
