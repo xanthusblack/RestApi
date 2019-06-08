@@ -10,19 +10,19 @@ $rest_password = 'testp@ssw0rd';
 //local
 $db = [
     'host' => 'localhost',
-    'port' => '3306',
-    'user' => 'root',
-    'password' => 'tiger',
+    'port' => '3307',
+    'user' => 'mysql_admin',
+    'password' => 'Minnuisgr8!',
     'database' => 'dbapi',
 ];
 //live
-$db = [
-    'host' => 'localhost',
-    'port' => '3306',
-    'user' => 'dbapiuser',
-    'password' => '5f4#nP928WP',
-    'database' => 'dbapi',
-];
+//$db = [
+//    'host' => 'localhost',
+//    'port' => '3306',
+//    'user' => 'dbapiuser',
+//    'password' => '5f4#nP928WP',
+//    'database' => 'dbapi',
+//];
 
 //TODO: For Future Implementation
 //resource request limits

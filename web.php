@@ -18,9 +18,7 @@ include_once __DIR__ . '/API/Kernel.php';
 use \Http\{
     Request, Response
 };
-use API\{
-    Kernel
-};
+use API\Kernel;
 
 // Creates a new request object and populates the request data
 $request = new Request();

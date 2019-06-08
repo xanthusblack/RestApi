@@ -83,7 +83,7 @@ SQL;
 SQL;
         }
         $result = mysqli_query($this->connection, $query);
-        if (mysqli_affected_rows($this->connection)) {
+        if (mysqli_affected_rows($this->connection) > 0) {
             while ($row = mysqli_fetch_assoc($result)) {
                 $return[] = $row;
             }
